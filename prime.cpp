@@ -22,14 +22,14 @@
  *  the GNU General Public License.
  *
  ****************************************************************************
- *  Authors: Dalvan Griebler <dalvangriebler@gmail.com>
+ *  Authors: Vagner Rigon Mizdal <vagner.mizdal@gmail.com>
  *
  *  Copyright: GNU General Public License
  *  Description: This is a simple prime calculator with MPI
  *  File Name: prime.cpp
  *  Version: 1.0 (02/06/2018)
- *  Compilation Command: mpic++ -O3 -std=c++1y -Wall /home/mpihpc/ppd-farm/prime.cpp -o /home/mpihpc/shared/exe.out
- *	Exacution Command: mpirun -np 4 ./exe
+ *  Compilation Command: mpic++ -O3 -std=c++1y -Wall ~/ppd-farm/prime.cpp -o ~/shared/exe.out
+ *	Exacution Command: mpirun -np 6 --machinefile ~/.cluster_hostfile ~/shared/exe.out
  */
 #include <iostream>
 #include <mpi.h>
