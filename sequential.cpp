@@ -28,8 +28,8 @@
  *  Description: This is a simple prime calculator
  *  File Name: sequential.cpp
  *  Version: 1.0 (02/06/2018)
- *  Compilation Command: g++ -std=c++1y ~/ppd-farm/sequential.cpp -o exe
- *	Exacution Command: ~/shared/exe.out 50000
+ *  Compilation Command: g++ -std=c++1y ~/ppd-farm/sequential.cpp -o ~/shared/sequential.out
+ *	Exacution Command: ~/shared/sequential.out
  */
 #include <iostream>
 #include <cmath>
